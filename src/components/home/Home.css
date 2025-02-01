@@ -1,0 +1,100 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 40px;
+}
+.navbar .right-nav{
+    display: flex;
+    gap: 40px;
+}
+.right-nav .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first p{
+    font-size: 12px;
+    color: rgb(81, 79, 79);
+}
+.home .home-body{
+    height: 85vh;
+    background-image: url('../../assets/backgroungimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.home-body .body-container{
+    background-color: white;
+    padding: 20px 20px 10px 20px;
+    margin-right: 50px;
+}
+.body-container h1{
+    padding: 0px 0 35px 0;
+    font-weight: 400;
+    font-size: 28px;
+}
+.body-container .inputfield{
+    display: flex;
+    gap: 20px;
+}
+.body-container .inputfield input{
+    padding: 10px;
+    background-color: #EEEEEE;
+    outline: none;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+}
+.inputfield input:focus{
+    border: 1px solid blue;
+}
+.body-container .checkbox{
+    display: flex;
+    padding: 13px 3px;
+    gap: 7px;
+}
+.checkbox input{
+    width: 18px;
+}
+.checkbox p{
+    font-size: 15px;
+    color: rgb(42, 42, 42);
+}
+.body-container button{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.body-container button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 168);
+}
+.home .footer{
+    padding: 8px 5px;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    text-decoration: underline;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer p:hover{
+    cursor: pointer;
+}
